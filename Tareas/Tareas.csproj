@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="haber">
+      <HintPath>..\..\haber\haber\bin\Debug\net5.0-windows\haber.dll</HintPath>
+    </Reference>
+    <Reference Include="haber2">
+      <HintPath>..\..\haber2\haber2\bin\Debug\net5.0-windows\haber2.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
